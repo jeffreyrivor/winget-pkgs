@@ -1,0 +1,19 @@
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+
+PackageIdentifier: Waytech.CloudDrive2
+PackageVersion: "1.0"
+InstallerType: inno
+Scope: machine
+UpgradeBehavior: install
+ProductCode: '{6A67D75D-B097-4828-B0DA-9257E00ECEF4}_is1'
+ReleaseDate: 2025-10-25
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/cloud-fs/cloud-fs.github.io/releases/download/v0.9.13/CloudDrive2Setup-X64-0.9.13.exe
+  InstallerSha256: 0D51F9DF7BA2AA4A13D10571529AF63958EFB0CE1DEA58FD92674176556BA7DE
+- Architecture: arm64
+  InstallerUrl: https://github.com/cloud-fs/cloud-fs.github.io/releases/download/v0.9.13/CloudDrive2Setup-Arm64-0.9.13.exe
+  InstallerSha256: 267B57B6B9EBC40BBDA2BC7C9C8744BC46B8678799BC2B300E1D82CA533F5D1F
+ManifestType: installer
+ManifestVersion: 1.10.0
