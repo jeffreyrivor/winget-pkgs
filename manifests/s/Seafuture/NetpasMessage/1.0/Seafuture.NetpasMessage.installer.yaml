@@ -1,5 +1,5 @@
 # Created with YamlCreate.ps1 Dumplings Mod
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: Seafuture.NetpasMessage
 PackageVersion: "1.0"
@@ -8,12 +8,13 @@ Scope: machine
 Protocols:
 - netpasmessage
 ProductCode: '{5744BE9E-4C12-4A23-BFFD-BBAE8C84456E}_is1'
+ReleaseDate: 2026-09-03
 Installers:
 - Architecture: x86
   InstallerUrl: https://file.netpas.net/ftp/NetpasMessageSetup.exe
-  InstallerSha256: F54B7273A0CDC8026FDE76F8D2A3A00B52E5BD2595B242FD11FCAAAA8FC2BFF9
+  InstallerSha256: 6B3CF74AA15730AE214849C78CDA40D058B5235E47BEAEEEB2B05C70F433F24D
 - Architecture: x64
   InstallerUrl: https://file.netpas.net/ftp/NetpasMessageSetup.exe
-  InstallerSha256: F54B7273A0CDC8026FDE76F8D2A3A00B52E5BD2595B242FD11FCAAAA8FC2BFF9
+  InstallerSha256: 6B3CF74AA15730AE214849C78CDA40D058B5235E47BEAEEEB2B05C70F433F24D
 ManifestType: installer
-ManifestVersion: 1.10.0
+ManifestVersion: 1.12.0

@@ -1,23 +1,24 @@
 # Created with YamlCreate.ps1 Dumplings Mod
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: KDE.KAtomic
 PackageVersion: master
 InstallerType: nullsoft
 UpgradeBehavior: install
 ProductCode: katomic
+ReleaseDate: 2026-09-04
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/katomic/master/windows/katomic-master-785-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 15B3D18F33EB3B023DEF45C317454042D42D17CFBBDBB931E8FDB2F6D7ED52A3
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/katomic/master/windows/katomic-master-938-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 871CE0C48C2E978CDBA624D355DED09798CF135B3D280276FB158C1F9EB5A205
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/katomic/master/windows/katomic-master-785-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 15B3D18F33EB3B023DEF45C317454042D42D17CFBBDBB931E8FDB2F6D7ED52A3
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/katomic/master/windows/katomic-master-938-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 871CE0C48C2E978CDBA624D355DED09798CF135B3D280276FB158C1F9EB5A205
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer
-ManifestVersion: 1.10.0
+ManifestVersion: 1.12.0
